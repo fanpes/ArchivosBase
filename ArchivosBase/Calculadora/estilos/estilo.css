@@ -1,0 +1,40 @@
+body{
+	background-color:white;
+	}
+#botones{margin-left:10px;
+}	
+.boton{
+	margin-left:5px;
+	margin-bottom:5px;
+	width:40px;
+	height:40px;
+	}
+#pantalla{
+	height:30px;
+  	margin-top:5px;
+	margin-bottom:15px;
+	margin-left:15px;
+	width:185px;
+	text-align: right;
+	}
+#calculadora{
+transition: background 2s;
+background:black;
+width:220px;
+border-radius:10px;
+box-shadow:10px 10px 20px 333333;
+}
+#calculadora:hover{
+transition:transparent  2s;
+transparent:20%;
+width:220px;
+border-radius:10px;
+}
+#botonIgual{
+background:orange;
+}
+
+#botonIgual:hover{
+border-color:yellow;
+}
+
